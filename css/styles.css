@@ -140,6 +140,26 @@ footer .display-footer a:hover {
   padding: 120px 60px;
 }
 
+.hero-up {
+  background-color: var(--secondary-color);
+  text-align: center;
+}
+
+.work-container {
+  padding: 20px 40px;
+}
+
+.skills h3 {
+  font-family: var(--head-font-family);
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.skills p {
+  font-size: 16px;
+  margin-top: 20px;
+}
+
 .content-container {
   padding: 10px 20px;
 }
