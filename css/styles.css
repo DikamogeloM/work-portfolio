@@ -144,6 +144,35 @@ footer .display-footer a:hover {
   padding: 10px 20px;
 }
 
+.get-in-touch {
+  background-color: var(--secondary-color);
+  text-align: center;
+  border-radius: 20px;
+  margin: 40px 20px;
+  padding: 10px;
+}
+
+.get-in-touch-info {
+  text-align: center;
+}
+
+.get-in-touch h1 {
+  font-weight: bold;
+  font-size: 96px;
+}
+
+.get-in-touch-info h3 {
+  font-weight: bold;
+  font-family: var(--head-font-family);
+  font-size: 30px;
+}
+
+.get-in-touch-info a {
+  line-height: 30px;
+  font-size: 20px;
+  color: var(--branding-color);
+}
+
 @media (max-width: 900px) {
   h1 {
     font-size: 44px;
@@ -170,14 +199,18 @@ footer .display-footer a:hover {
     padding: 0;
     text-align: center;
   }
+
   .btn-branding {
     display: block;
   }
+
   .img-fluid {
     justify-content: center;
   }
-}
-
-.display-footer {
-  text-align: center;
+  .get-in-touch h1 {
+    font-size: 44px;
+  }
+  .display-footer {
+    text-align: center;
+  }
 }
