@@ -21,6 +21,16 @@
   font-family: var(--head-font-family);
 }
 
+.hero h2 a {
+  text-decoration: none;
+  color: #212529;
+}
+
+.hero h2 a:hover {
+  text-decoration: none;
+  color: #6c757d;
+}
+
 h1 {
   font-size: 96px;
   font-family: var(--head-font-family);
